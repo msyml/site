@@ -7,6 +7,7 @@ import {api} from './api/index'
 import dayjs from 'dayjs'
 import VMdPreview from './plugins/VMdPreview'
 import AntDesign from './plugins/AntDesign'
+// import Highlight from './plugins/Highlight'
 // import NaiveUI from './plugins/NaiveUI'
 
 const app = createApp(App)
@@ -14,6 +15,7 @@ app.use(router)
 app.use(VMdPreview);
 // app.use(NaiveUI);
 AntDesign(app);
+// Highlight(app);
 app.config.globalProperties.$api = api;
 app.config.globalProperties.$dayjs = dayjs;
 

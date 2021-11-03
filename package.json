@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-app",
+  "name": "msyml-site",
   "version": "0.0.0",
   "scripts": {
     "start": "vite --host",
